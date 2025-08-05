@@ -8,8 +8,22 @@ const HeroSection = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
-          <div className="text-center lg:text-left">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+          <div className="text-center lg:text-left space-y-8">
+            {/* Premium Tagline Banner */}
+            <div className="bg-gradient-to-r from-brand-secondary to-brand-primary p-4 rounded-xl mb-6 relative overflow-hidden">
+              <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent animate-pulse"></div>
+              <h2 className="text-lg md:text-xl font-semibold text-white text-center relative z-10" style={{
+                textShadow: '0 0 20px rgba(255,255,255,0.5), 0 0 40px rgba(255,255,255,0.3)',
+                background: 'linear-gradient(45deg, #e5e7eb, #f9fafb, #e5e7eb)',
+                WebkitBackgroundClip: 'text',
+                WebkitTextFillColor: 'transparent',
+                backgroundClip: 'text'
+              }}>
+                World's 🌎 First Visa Doorstep Facilitation Services
+              </h2>
+            </div>
+            
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
               <span className="bg-gradient-primary bg-clip-text text-transparent">
                 Visa on Autopilot
               </span>

@@ -77,6 +77,23 @@ const CountrySection = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Choose Your <span className="text-brand-accent">Destination</span>
           </h2>
+          
+          {/* Quick Stats */}
+          <div className="grid md:grid-cols-3 gap-6 max-w-3xl mx-auto mb-8">
+            <div className="bg-brand-primary/10 rounded-lg p-4">
+              <h3 className="text-brand-primary font-bold text-lg">Get your visa journey start</h3>
+              <p className="text-2xl font-bold text-brand-secondary">10 mins</p>
+            </div>
+            <div className="bg-brand-accent/10 rounded-lg p-4">
+              <h3 className="text-brand-accent font-bold text-lg">Get appointment slot</h3>
+              <p className="text-2xl font-bold text-brand-secondary">15 mins</p>
+            </div>
+            <div className="bg-success/10 rounded-lg p-4">
+              <h3 className="text-success font-bold text-lg">Onboard process</h3>
+              <p className="text-2xl font-bold text-brand-secondary">5 mins</p>
+            </div>
+          </div>
+          
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
             Select from our most popular visa destinations or search for your specific country.
           </p>

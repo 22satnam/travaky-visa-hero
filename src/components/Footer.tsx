@@ -45,19 +45,33 @@ const Footer = () => {
 
           {/* Contact Info */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
-            <div className="space-y-3">
+            <h3 className="text-lg font-semibold mb-4">Contact Information</h3>
+            <div className="space-y-4">
               <div className="flex items-center gap-3">
                 <Phone className="h-4 w-4 text-brand-accent" />
-                <span className="text-white/80">+91 98765 43210</span>
+                <div>
+                  <p className="text-white font-medium">+1 (555) 123-4567</p>
+                  <p className="text-white/60 text-xs">24/7 Support Line</p>
+                </div>
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="h-4 w-4 text-brand-accent" />
-                <span className="text-white/80">hello@travaky.com</span>
+                <div>
+                  <p className="text-white font-medium">support@travaky.com</p>
+                  <p className="text-white/60 text-xs">Quick Response</p>
+                </div>
               </div>
-              <div className="flex items-center gap-3">
-                <MapPin className="h-4 w-4 text-brand-accent" />
-                <span className="text-white/80">Mumbai, Delhi, Bangalore</span>
+              <div className="flex items-start gap-3">
+                <MapPin className="h-4 w-4 text-brand-accent mt-0.5" />
+                <div>
+                  <p className="text-white font-medium">Global Offices</p>
+                  <p className="text-white/60 text-xs">Mumbai, Delhi, Bangalore</p>
+                  <p className="text-white/60 text-xs">New York, London, Dubai</p>
+                </div>
+              </div>
+              <div className="bg-white/10 rounded-lg p-3 mt-4">
+                <p className="text-white/80 text-sm font-medium">Emergency Support</p>
+                <p className="text-brand-accent text-sm">+1 (555) 911-VISA</p>
               </div>
             </div>
           </div>
